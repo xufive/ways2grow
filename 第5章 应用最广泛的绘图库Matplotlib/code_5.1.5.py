@@ -12,7 +12,7 @@ plt.rcParams['axes.unicode_minus'] = False # 正确显示连字符
 
 fig = plt.figure()
 fig.set_size_inches(5, 3) # 设置画布为5英寸宽3英寸高
-axes = fig.add_axes([0, 0, 1, 1])
+axes = fig.add_axes([0.1, 0.1, 0.8, 0.8])
 x = np.random.rand(50) # 随机生成散点x坐标
 y = np.random.rand(50) # 随机生成散点y坐标
 color = 2 * np.pi * np.random.rand(50) # 随机生成散点颜色

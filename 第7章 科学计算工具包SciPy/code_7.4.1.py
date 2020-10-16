@@ -18,8 +18,8 @@ s3 = 0.3*np.sin(5*x)
 s = s1 + s2 + s3
 
 plt.plot(x, s1, label='s1-2Hz分量')
-plt.plot(x, s2, label=' s2-6Hz分量')
-plt.plot(x, s3, label=' s3-10Hz分量 ')
+plt.plot(x, s2, label='s2-6Hz分量')
+plt.plot(x, s3, label='s3-10Hz分量 ')
 plt.plot(x, s, label='s–复合信号')
 plt.legend()
 plt.show()
